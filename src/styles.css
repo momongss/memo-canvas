@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #202124;
+  color: #e8eaed;
+}
+
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5000px; /* 큰 캔버스 영역 */
+  height: 5000px;
+  background-color: #1e1e1e;
+}
+
+/* 버튼 스타일을 id로 변경 */
+#addMemoButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #5f6368;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#addMemoButton:hover {
+  background-color: #3c4043;
+}
