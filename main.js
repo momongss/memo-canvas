@@ -3,17 +3,9 @@ const path = require("path");
 const fs = require("fs");
 
 let memos = []; // 메모 데이터를 저장할 배열
+const dirPath = app.getPath("userData");
 
 function loadMemos() {
-  const dirPath = path.join(
-    "C:",
-    "Users",
-    "rkrp1",
-    "Desktop",
-    "Project",
-    "keep-memo",
-    "memo"
-  );
   const filePath = path.join(dirPath, "memos.json");
 
   // 디렉토리와 파일이 존재하는지 확인
@@ -76,15 +68,6 @@ app.on("window-all-closed", () => {
 // IPC 핸들러 - 메모 데이터를 저장하는 처리
 ipcMain.handle("save-data", async (event, { memoData }) => {
   try {
-    const dirPath = path.join(
-      "C:",
-      "Users",
-      "rkrp1",
-      "Desktop",
-      "Project",
-      "keep-memo",
-      "memo"
-    );
     const filePath = path.join(dirPath, "memos.json");
 
     // 디렉토리가 없으면 생성
