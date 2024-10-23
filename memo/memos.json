@@ -3,30 +3,30 @@
     "id": "_mhxjx2jb5",
     "title": "dssfagagdsgas",
     "content": "<div>dsdfadks d</div><div>s</div><div>dasdasdadasad</div>",
-    "x": 613,
-    "y": 525,
+    "x": 229,
+    "y": 317,
     "width": 200,
     "height": 150,
-    "zIndex": "6"
+    "zIndex": "5"
   },
   {
     "id": "_y2obewdoh",
     "title": "",
     "content": "undefinedasdadasa",
-    "x": 850,
-    "y": 543,
+    "x": 535,
+    "y": 384,
     "width": 200,
     "height": 150,
-    "zIndex": "4"
+    "zIndex": "3"
   },
   {
     "id": "_vfk3cfvf8",
     "title": "",
-    "content": "undefined",
-    "x": 652,
-    "y": 250,
+    "content": "",
+    "x": 240,
+    "y": 94,
     "width": 200,
     "height": 150,
-    "zIndex": "7"
+    "zIndex": "6"
   }
 ]
